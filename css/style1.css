@@ -12,7 +12,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 
@@ -735,7 +735,11 @@ tbody {
     font-weight: 600;
 }
 
+/* ------------------Education----------- */
 
+ol {
+    list-style-type: circle;
+}
 
 /* media queries  */
 @media (max-width:991px) {
@@ -827,6 +831,7 @@ tbody {
     
 
 }
+
 
 
 
