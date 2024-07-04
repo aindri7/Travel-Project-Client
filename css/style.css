@@ -297,7 +297,14 @@ td {
 
 /* ----------------table-------------- */
 
-table {
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table1 {
     width: 82vw;
     /* border-collapse: collapse; */
     /* border: 2px solid red; */
@@ -318,7 +325,7 @@ table {
     padding: 7rem 0 0 0;
 }
 
-th,td {
+.table1 th,td {
     text-align: center;
     border: 2px solid black;
     padding: 0px;
@@ -329,6 +336,8 @@ th,td {
     /* border: 2px solid yellowgreen; */
     width: 82vw;
     border: 2px solid black;
+    /* position: relative;
+    left: 17vh; */
 }
 
 tbody {
@@ -832,7 +841,7 @@ tbody {
     font-weight: 600;
 }
 
-/* ------------------Education----------- */
+/* ------------------Trek and travel and education----------- */
 .destinations ol {
     list-style-type: disc;
     position: relative;
@@ -883,11 +892,14 @@ tbody {
 
     .container-table {
         width: 83w;
+        left: 0;
     }
 
     .full-column p{
         width: 21vw;
         height: 15vh;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -910,11 +922,14 @@ tbody {
 
     .container-table {
         width: 83w;
+        left: 0;
     }
 
     .full-column p{
         width: 21vw;
         height: 15vh;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -969,17 +984,19 @@ tbody {
     /* -------------table------------- */
     .container-table {
         width: 90vw;
+        left: 0;
     }
 
-    th, td {
+    .table1 th, td {
         font-size: 1.5rem;
+        text-align: center;
     }
 
     tbody {
         width: 10vw;
     }
 
-    table {
+    .table1 {
         width: 90vw;
     }
 
@@ -988,23 +1005,29 @@ tbody {
         width: 23vw;
     }
 
+    .full-column p {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 834px) {
     /* -------------table------------- */
     .container-table {
         width: 90vw;
+        left: 0;
     }
 
-    th, td {
+    .table1 th, td {
         font-size: 1.5rem;
+        text-align: center;
     }
 
     tbody {
         width: 10vw;
     }
 
-    table {
+    .table1 {
         width: 90vw;
     }
 
@@ -1065,13 +1088,12 @@ tbody {
 
     /* -------------table------------- */
     .container-table {
-        width: 107vw;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
+        width: 97vw;
     }
 
-    th, td {
+    .table1 th, td {
         font-size: 1.5rem;
+        text-align: center;
     }
 
     tbody {
@@ -1080,10 +1102,8 @@ tbody {
         padding: 0 0 0 0;
     }
 
-    table {
-        width: 90vw;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
+    .table1 {
+        width: 81vw;
     }
 
     .full-column {
@@ -1094,27 +1114,40 @@ tbody {
     .full-column p {
         height: 25vh;
         width: 32vw;
+        display: flex;
+        justify-content: center;
     }
 
+    .exception {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 450px) and (max-width:600px){
     /* -------------table------------- */
     .container-table {
-        width: 133vw;
-        margin: 0 0 0 0;
+        width: 135vw;
+        position: relative;
+        left: 17vh;
+        right: 20vh;
+        margin: 0 0 0 20px;
+        padding: 0 0 0 0;
+        text-align: center;
     }
 
-    th, td {
+    .table1 th, td {
         font-size: 1.5rem;
+        text-align: center;
     }
 
     tbody {
         width: 10vw;
     }
 
-    table {
+    .table1 {
         width: 90vw;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
     }
 
     .full-column {
@@ -1125,6 +1158,9 @@ tbody {
     .full-column p {
         height: 24vh;
         width: 34vw;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
     }
 
     /* --------Himalaya------- */
@@ -1156,17 +1192,19 @@ tbody {
     
     /* -------------table------------- */
     .container-table {
-        width: 176vw;
+        width: 203vw;
         /* margin: 0 0 0 36px; */
+        /* left: 0; */
     }
 
-    th, td {
+    .table1 th, td {
         font-size: 1.5rem;
+        /* text-align: center; */
     }
 
-    table {
-        width: 90vw;
-        margin: 0 0 0 0;
+    .table1 {
+        width: 77vw;
+        margin: 0 0 0 223px;
         padding: 0 0 0 0;
     }
 
