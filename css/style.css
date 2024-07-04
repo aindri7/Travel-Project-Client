@@ -842,6 +842,11 @@ tbody {
 }
 
 /* ------------------Trek and travel and education----------- */
+.destinations {
+    /* padding: 10px; */
+    padding: 10vh 5rem;
+}
+
 .destinations ol {
     list-style-type: disc;
     position: relative;
@@ -870,6 +875,36 @@ tbody {
 .termscontent ol{
     list-style: disc;
 }
+
+
+/* --------------Jyoth------------ */
+/* .jyoth1 {
+    background-image: url(../images/jyot1.jpg);
+} */
+
+.content-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 125vh;
+    width: 256vw;
+    float: left;
+}
+
+#jyotirlingas {
+    display: flex;
+    justify-content: space-between;
+    gap: 3vh;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+}
+
+.termscontent p {
+    /* flex: 1 1 0; */
+    /* width: 100%; */
+    overflow: hidden;
+    text-align: justify;
+}
+
 
 /* media queries  */
 @media (min-width: 1440px) {
