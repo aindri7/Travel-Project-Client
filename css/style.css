@@ -467,12 +467,33 @@ tbody {
     width: 62vh;
 }
 
+#pic6 {
+    background-image: url('../images/Himalaya-img-1.jpg');
+    height: 59vh;
+    width: 62vh;
+    background-size: cover;
+}
+
+#pic7 {
+    background-image: url('../images/Himalaya-img-2.jpg');
+    height: 59vh;
+    width: 62vh;
+    background-size: cover;
+}
+
+#pic8 {
+    background-image: url('../images/Himalaya-img-3.jpg');
+    height: 59vh;
+    width: 62vh;
+    background-size: cover;
+}
+
 .pictures {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    /* gap: 5vh; */
+    gap: 2vh;
     justify-content: space-between;
     /* border: 2px solid red; */
 } 
@@ -870,12 +891,115 @@ tbody {
     gap: 1vh;
 }
 
+.trekimg1 {
+    background-image: url('/images/Trek1-corrected.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100vw; */
+    /* border: 2px solid black; */
+}
+
+.trekimg2 {
+    background-image: url('/images/Trek2-corrected.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100vw; */
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+}
+
+.trekimg3 {
+    background-image: url('/images/Trek3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 2rem;
+}
+
+.trekimg4 {
+    background-image: url('/images/Trek4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 66vh;
+    margin-top: 2rem;
+}
+
+.trekimg5 {
+    background-image: url('/images/Trek5.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* margin-top: 2rem; */
+}
+
+.trek-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.edu-img1 {
+    background-image: url('/images/Education-img-1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.edu-img2 {
+    background-image: url('/images/Education-img-2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.edu-img3 {
+    background-image: url('/images/Education-img-3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.edu-img4 {
+    background-image: url('/images/Education-img-4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.edu-img {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
 /* -------Terms--------- */
 
 .termscontent ol{
     list-style: disc;
 }
 
+.terms-img {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.terms-img1 {
+    background-image: url('/images/Terms-img1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.terms-img2 {
+    background-image: url('/images/Terms-img2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* margin-top: 2rem; */
+}
 
 /* --------------Jyoth------------ */
 /* .jyoth1 {
@@ -885,8 +1009,8 @@ tbody {
 .content-image {
     background-repeat: no-repeat;
     background-size: contain;
-    height: 125vh;
-    width: 256vw;
+    height: 100vh;
+    width: 100vw;
     float: left;
 }
 
@@ -905,6 +1029,12 @@ tbody {
     text-align: justify;
 }
 
+.jyot-guide {
+    background-image: url('/images/Jyoti-img.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
 /* media queries  */
 @media (min-width: 1440px) {
