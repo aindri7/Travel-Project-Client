@@ -468,24 +468,26 @@ tbody {
 }
 
 #pic6 {
-    background-image: url('../images/Himalaya-img-1.jpg');
+    /* background-image: url('../images/Himalaya-img-1.jpg'); */
     height: 59vh;
-    width: 62vh;
+    width: 83vh;
     background-size: cover;
 }
 
 #pic7 {
-    background-image: url('../images/Himalaya-img-2.jpg');
+    /* background-image: url('../images/Himalaya-img-2.jpg'); */
     height: 59vh;
-    width: 62vh;
-    background-size: cover;
+    width: 40vh;
+    background-size: contain;
+    background-position: center;
 }
 
 #pic8 {
-    background-image: url('../images/Himalaya-img-3.jpg');
+    /* background-image: url('../images/Himalaya-img-3.jpg'); */
     height: 59vh;
-    width: 62vh;
-    background-size: cover;
+    width: 85vh;
+    background-size: contain;
+    background-position: center;
 }
 
 .pictures {
@@ -892,7 +894,7 @@ tbody {
 }
 
 .trekimg1 {
-    background-image: url('/images/Trek1-corrected.jpg');
+    /* background-image: url('/images/Trek1-corrected.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -901,7 +903,7 @@ tbody {
 }
 
 .trekimg2 {
-    background-image: url('/images/Trek2-corrected.jpg');
+    /* background-image: url('/images/Trek2-corrected.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
@@ -911,7 +913,7 @@ tbody {
 }
 
 .trekimg3 {
-    background-image: url('/images/Trek3.jpg');
+    /* background-image: url('/images/Trek3.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
@@ -919,7 +921,7 @@ tbody {
 }
 
 .trekimg4 {
-    background-image: url('/images/Trek4.jpg');
+    /* background-image: url('/images/Trek4.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 66vh;
@@ -927,7 +929,7 @@ tbody {
 }
 
 .trekimg5 {
-    background-image: url('/images/Trek5.jpg');
+    /* background-image: url('/images/Trek5.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
