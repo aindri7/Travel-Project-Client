@@ -943,28 +943,28 @@ tbody {
 }
 
 .edu-img1 {
-    background-image: url('/images/Education-img-1.jpg');
+    /* background-image: url('/images/Education-img-1.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .edu-img2 {
-    background-image: url('/images/Education-img-2.jpg');
+    /* background-image: url('/images/Education-img-2.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .edu-img3 {
-    background-image: url('/images/Education-img-3.jpg');
+    /* background-image: url('/images/Education-img-3.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .edu-img4 {
-    background-image: url('/images/Education-img-4.jpg');
+    /* background-image: url('/images/Education-img-4.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
@@ -993,14 +993,14 @@ tbody {
 }
 
 .terms-img1 {
-    background-image: url('/images/Terms-img1.jpg');
+    /* background-image: url('/images/Terms-img1.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .terms-img2 {
-    background-image: url('/images/Terms-img2.jpg');
+    /* background-image: url('/images/Terms-img2.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
